@@ -27,7 +27,7 @@
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/pdf2pic.git
+git clone https://github.com/KrishBharadwaj5678/pdf2pic.git
 cd pdf2pic
 pip install -r requirements.txt
 ```
@@ -48,4 +48,4 @@ Then open the link in your browser (typically `http://localhost:8501`).
 
 ## 🙌 Contributing
 
-We welcome contributions! If you encounter a bug or have an idea for a new feature, feel free to [open an issue](https://github.com/yourusername/pdf2pic/issues) or submit a pull request.
+We welcome contributions! If you encounter a bug or have an idea for a new feature, feel free to [open an issue](https://github.com/KrishBharadwaj5678/pdf2pic/issues) or submit a pull request.
