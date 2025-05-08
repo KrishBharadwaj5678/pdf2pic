@@ -1,6 +1,6 @@
 # 📄 pdf2pic
 
-**pdf2pic** is a simple yet powerful tool built with **Python** and **Streamlit** that extracts all images embedded in a PDF and packages them into a downloadable ZIP file. It's perfect for **designers**, **researchers**, and **creatives** who need quick access to visual assets hidden in documents.
+**pdf2pic** is a simple yet powerful tool built with **Python** and **Streamlit** that extracts all images embedded in a PDF and packages them into a downloadable ZIP file.
 
 ---
 
@@ -41,8 +41,6 @@ Run the app locally with Streamlit:
 ```bash
 streamlit run app.py
 ```
-
-Then open the link in your browser (typically `http://localhost:8501`).
 
 ---
 
