@@ -1,49 +1,58 @@
 # 📄 pdf2pic
 
-**pdf2pic** is a simple yet powerful tool built with **Python** and **Streamlit** that extracts all images embedded in a PDF and packages them into a downloadable ZIP file. 📦
-
----
+**pdf2pic** is a simple yet powerful tool built with **Python** and **Streamlit** that extracts all images embedded in a PDF and packages them into a downloadable ZIP file. 
 
 ## 🚀 Features
 
-* 🔍 **High-Quality Extraction** – Preserve image clarity and detail
-* 📦 **ZIP Packaging** – Download all images in one click
-* 🖥️ **Streamlit Interface** – Intuitive and fast UI, accessible via the browser
-* 🛠️ **Lightweight & Fast** – No bloat, just what you need
+| Feature                    | Description                                           |
+| -------------------------- | ----------------------------------------------------- |
+| 🔍 High-Quality Extraction | Preserves image clarity and important visual details  |
+| 📦 ZIP Packaging           | Download multiple images bundled in a single ZIP file |
+| 🖥️ Streamlit Interface    | Fast and user-friendly web UI accessible in a browser |
+| 🛠️ Lightweight & Fast     | Optimized performance with minimal resources required |
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Python**
-* **Streamlit** – for the web interface
-* **Fitz** – for PDF processing
-* **Zipfile** – to compile images
+| Technology            | Purpose                                          |
+| --------------------- | ------------------------------------------------ |
+| 🐍 **Python**         | Core scripting and backend logic                 |
+| 🌐 **Streamlit**      | Provides fast and interactive web interface      |
+| 📄 **Fitz (PyMuPDF)** | Extracts and processes images from PDF files     |
+| 📦 **Zipfile**        | Bundles extracted images into a downloadable ZIP |
 
 ---
 
 ## 🧰 Installation
 
-Clone the repo and install dependencies:
+1) Clone the repository:
 
-```bash
-git clone https://github.com/KrishBharadwaj5678/pdf2pic.git
-cd pdf2pic
-pip install -r requirements.txt
-```
+    ```bash
+    git clone https://github.com/KrishBharadwaj5678/pdf2pic.git
+    cd pdf2pic
+    ```
+
+2) Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3) Run the app locally with Streamlit:
+
+    ```bash
+    streamlit run app.py
+    ```
 
 ---
 
-## ▶️ Usage
+## Contributing 🤝
 
-Run the app locally with Streamlit:
+Want to contribute? Here's how:
 
-```bash
-streamlit run app.py
-```
-
----
-
-## 🙌 Contributing
-
-We welcome contributions! If you encounter a bug or have an idea for a new feature, feel free to [open an issue](https://github.com/KrishBharadwaj5678/pdf2pic/issues) or submit a pull request.
+1. 🍴 Fork the repository.
+2. 🌿 Create a new branch (`git checkout -b feature-name`).
+3. ✍️ Make your changes and commit them (`git commit -am 'Add feature-name'`).
+4. 🚀 Push to your branch (`git push origin feature-name`).
+5. 🔄 Submit a pull request to merge into the main branch.
