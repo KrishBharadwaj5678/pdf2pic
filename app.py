@@ -18,7 +18,6 @@ pdf_file=st.file_uploader("Upload Your PDF",type="pdf")
 btn=st.button("Extract Images")
 
 if btn:
-
     # Removing the zip file
     zip_file_path = os.path.join(os.getcwd(), "extract.zip")
     if os.path.exists(zip_file_path):
