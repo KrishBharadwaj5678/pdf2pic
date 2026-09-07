@@ -5,7 +5,7 @@ import os
 
 st.set_page_config(
     page_title="Extract PDF images - quick, online, free",
-    page_icon="icon.png",
+    page_icon="./assets/icons/pdf2pic.png",
     menu_items={
         "About":"Our streamlined tool extracts high-quality images from your PDFs and compiles them into a convenient ZIP file. Perfect for designers, researchers, and anyone who needs to access and utilize images embedded in PDFs. Get started today and bring your documents to life with ease!"
     }
